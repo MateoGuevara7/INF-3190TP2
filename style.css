@@ -1,0 +1,95 @@
+body{
+    font-family: 'Avenir Next', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    background-color: #282828;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;  
+  }
+  
+  p{
+    margin-left: 20px;
+    color: #6c6c6d;
+    font-size: 80%;
+  }
+  
+  #titresite{
+    font-weight: 800;
+    font-size: 200%;
+  }
+  
+  #titresite::after{
+    content: "🍿";    
+  }
+  
+  #film{
+    border:1px solid #6c6c6d;;
+    padding:10px;
+    border-radius: 4px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #film::before{
+    content: "🎬";
+  }
+  
+  #posterimage {
+    width: 20%;
+    height: auto;
+    float: left;
+  }
+  
+  #filmtitre{
+    margin-left: 20px;
+    display: inline-block;   
+  }
+  
+  #filmpotatometer{
+    margin-left: 20px;
+    display: block; 
+    font-size: 150%;
+  }
+  
+  #filmpotatometer::before{
+    content: "🥔";
+  }
+  
+  #filmpopularite{
+    margin-left: 20px;
+    display: block;
+    font-size: 150%; 
+  }
+  
+  #filmpopularite::before{
+    content: "🍿";
+  }
+  
+  #filmoverview{
+    font-size: 80%;       
+  }
+  
+  #filmreview{ 
+    display:inline-block;
+    border:1px solid #6c6c6d;;
+    padding:20px;
+    border-radius: 4px;
+    font-size: 80%;
+  }
+  
+  #buttonrevenir{
+    border-radius:  4px;
+    border: 2px solid #e7e7e7;
+  }
